@@ -43,9 +43,33 @@ header h1 {
 }
 
 
+/*About*/
+
+.about p {
+    width: 60%;
+    float: right;
+    margin-top: 10%;
+}
+
+
+/*Team*/
+
+.perfil-box {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+
+.perfil-box img {
+    border-radius: 180px;
+}
+
+
 /*Footer*/
 
 footer {
     margin-top: 0px;
     background-color: #707070;
+    color: #fff;
+    text-align: center;
 }
