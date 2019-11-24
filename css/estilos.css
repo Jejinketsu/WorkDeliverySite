@@ -10,6 +10,7 @@ body {
 ul,
 li {
     list-style-type: none;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
@@ -23,6 +24,17 @@ li {
 .container {
     width: 93%;
     margin: auto;
+}
+
+.rating {
+    background-color: #FFC100;
+    border-radius: 5px;
+    color: #fff;
+    width: 45px;
+}
+
+.rating p {
+    margin: 0px;
 }
 
 
@@ -40,6 +52,94 @@ header h1 {
     align-content: center;
     margin-top: 7px;
     height: 70px;
+}
+
+
+/*Navegation*/
+
+.navegation h1 {
+    margin-bottom: 0px;
+}
+
+.navegation li {
+    text-align: center;
+    align-content: center;
+    margin: 2px 10px 5px 0px;
+}
+
+.navegation img {
+    width: 60px;
+}
+
+.navegation h4 {
+    margin: 0px;
+}
+
+
+/*New-Workers*/
+
+.worker-box {
+    padding: 0px 15px;
+    margin: 0px 0px 35px;
+    text-align: center;
+}
+
+.worker-box img {
+    width: 150px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.worker-box .new-bar {
+    background-color: #B3D9B3;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+}
+
+.worker-box .new-bar p {
+    margin: 0px;
+}
+
+
+/*Subsections*/
+
+.subsection ul {
+    width: 100%;
+}
+
+.subsection li {
+    width: 30%;
+}
+
+.worker-info img {
+    width: 73px;
+    border-radius: 10px;
+    margin-right: 5px;
+    float: left;
+}
+
+.subsection h3 {
+    font-size: 16px;
+}
+
+.subsection h4,
+.subsection p {
+    font-size: 12px;
+}
+
+.subsection p {
+    font-size: 12px;
+}
+
+.subsection h3,
+.subsection h4,
+.subsection p {
+    margin: 0px;
+}
+
+.subsection .coverage-area {
+    float: right;
 }
 
 
