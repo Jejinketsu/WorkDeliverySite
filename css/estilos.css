@@ -26,6 +26,10 @@ li {
     margin: auto;
 }
 
+section h1 {
+    color: #860225;
+}
+
 .rating {
     background-color: #FFC100;
     border-radius: 5px;
@@ -78,6 +82,14 @@ header h1 {
 
 /*New-Workers*/
 
+.new-workers li {
+    height: 250px;
+}
+
+.worker-box {
+    position: relative;
+}
+
 .worker-box {
     padding: 0px 15px;
     margin: 0px 0px 35px;
@@ -87,17 +99,42 @@ header h1 {
 .worker-box img {
     width: 150px;
     position: absolute;
-    border-radius: 15px;
+    top: 0px;
+    left: 15px;
+    float: left;
+    border-radius: 10px;
 }
 
 .worker-box .new-bar {
-    background-color: #B3D9B3;
+    background-color: #df0942;
     border-radius: 5px;
     color: #fff;
+    width: 150px;
     position: relative;
+    top: 90px;
+    left: 0px;
 }
 
 .worker-box .new-bar p {
+    margin: 0px;
+}
+
+.worker-box .rating {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.worker-label {
+    position: relative;
+    top: 100px;
+}
+
+.worker-box h3 {
+    margin: 5px 0px 0px 0px;
+}
+
+.worker-box p {
     margin: 0px;
 }
 
@@ -110,13 +147,15 @@ header h1 {
 
 .subsection li {
     width: 30%;
+    margin: 0px 30px 30px 0px;
 }
 
 .worker-info img {
-    width: 73px;
+    width: 85px;
     border-radius: 10px;
     margin-right: 5px;
     float: left;
+    box-shadow: 1px 1px 5px rgb(121, 116, 116);
 }
 
 .subsection h3 {
@@ -138,8 +177,21 @@ header h1 {
     margin: 0px;
 }
 
+.subsection .rating {
+    float: left;
+    padding: 2px;
+}
+
+.subsection .rating p {
+    margin-left: 3px;
+}
+
 .subsection .coverage-area {
     float: right;
+    background-color: #a4002c;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 
@@ -165,6 +217,26 @@ header h1 {
 }
 
 
+/*button-contact*/
+
+#button-contact {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #a4002c;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#button-contact a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
 /*Footer*/
 
 footer {
@@ -172,4 +244,8 @@ footer {
     background-color: #707070;
     color: #fff;
     text-align: center;
+}
+
+footer p {
+    margin: 0px;
 }
